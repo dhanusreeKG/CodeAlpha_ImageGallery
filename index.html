@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pink Aesthetic Gallery</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ffd6e8, #ffe6f0);
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .gallery {
+            display: flex;
+            gap: 25px;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 260px;
+            height: 320px;
+            object-fit: cover;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(255, 105, 180, 0.4);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            cursor: pointer;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.08);
+            box-shadow: 0 15px 35px rgba(255, 20, 147, 0.6);
+        }
+
+        h1 {
+            position: absolute;
+            top: 30px;
+            color: #ff4f9a;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Pink  Gallery</h1>
+
+    <div class="gallery">
+    <img src="images/img1.jpg" alt="Image 1">
+    <img src="images/img2.jpg" alt="Image 2">
+</div>
+
+</body>
+</html>
