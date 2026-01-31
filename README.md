@@ -20,4 +20,4 @@ A simple and elegant pink-themed image gallery built using HTML and CSS. This pr
 4. Open `index.html` in your browser  
 
 ## 🔗 Live Demo
-Click(http://127.0.0.1:5500/index.html)
+Click(http://127.0.0.1:5500/index.html) or ( https://dhanusreekg.github.io/CodeAlpha_ImageGallery/)
